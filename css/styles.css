@@ -4,16 +4,37 @@ body {
     background-color: #FFFFFF;
 }
 
-/* header1 */
+.container {
+width: 1158px;
+padding-left: 156px;
+padding-right: 156px;
+margin: 0 auto;
+}
 
-a { 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+a {
     text-decoration: none;
+    color: currentColor;
 }
 
 ul li {
     list-style-type: none;
-    
+    margin-top: 0;
+    margin-left: 0;
 }
+
+
+/* header */
 
 .page-header {
     background: #fff;
