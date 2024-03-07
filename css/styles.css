@@ -129,8 +129,7 @@ text-decoration: underline;
 .hero {
     background: #2e2f42;
     text-align: center;
-    padding-top: 175px;
-    padding-bottom: 185px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -178,8 +177,8 @@ background-color: #404BBF;
 /* Section-2 */
 
 .features {
-    padding-bottom: 114px;
-        padding-top: 136px;
+    padding-bottom: 120px;
+        padding-top: 120px;
 }
 
 .visually-hidden {
@@ -291,7 +290,7 @@ border-radius: 0 0 4px 4px;
 /* section portfolio */
 
 .portfolio {
-padding-top: 126px;
+padding-top: 120px;
 padding-bottom: 120px;
 }
 
@@ -364,7 +363,7 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-margin: 0;
+    margin-bottom: 16px;
 }
 
 .logo-part-footer {
@@ -383,6 +382,6 @@ font-family: "Raleway", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
+    margin: 0;
     width: 264px;
 }
