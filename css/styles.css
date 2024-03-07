@@ -30,7 +30,7 @@ a {
 ul, ol {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0;
 }
 
 img {
@@ -128,6 +128,8 @@ text-decoration: underline;
 .hero {
     background: #2e2f42;
     text-align: center;
+    padding-top: 175px;
+    padding-bottom: 185px;
 }
 
 .hero-title {
@@ -142,7 +144,7 @@ text-decoration: underline;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 48px;
-        padding-top: 175px;
+
 }
 
 .hero-btn {
@@ -164,7 +166,7 @@ text-decoration: underline;
 .btn-container {
     display: flex;
     align-items: center;
-padding-bottom: 185px;
+
 }
 
 .hero-btn:hover, .hero-btn:focus {
@@ -174,6 +176,11 @@ background-color: #404BBF;
 
 /* Section-2 */
 
+.features {
+    padding-bottom: 114px;
+        padding-top: 136px;
+}
+
 .features-list {
     display: flex;
     gap: 24px;
@@ -182,8 +189,7 @@ background-color: #404BBF;
 
 .features-blok {
     width: calc((100% - 72px) / 4);
-    padding-bottom: 114px;
-    padding-top: 136px;
+
 }
 
 .features-title {
@@ -209,6 +215,8 @@ background-color: #404BBF;
 
 .ourteam-section {
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .ourteam-title {
@@ -219,7 +227,7 @@ background-color: #404BBF;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    padding-top: 120px;
+    
     padding-left: auto;
     padding-right: auto;
     padding-bottom: 0;
@@ -230,7 +238,7 @@ background-color: #404BBF;
 display: flex;
 gap: 24px;
 margin: 0;
-padding-bottom: 120px;
+
 }
 
 .ourteam-item {
