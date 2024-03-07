@@ -123,7 +123,7 @@ text-decoration: underline;
     color: #404bbf;
 }
 
-/* Section-1 */
+/* =============== Hero Section-1 =========== */
 
 .hero {
     background: #2e2f42;
@@ -137,7 +137,12 @@ text-decoration: underline;
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
-
+        max-width: 496px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+        padding-top: 175px;
 }
 
 .hero-btn {
@@ -149,6 +154,15 @@ text-decoration: underline;
         line-height: 1.5;
         color: #fff;
         letter-spacing: 0.04em;
+        display: block;
+        margin: 0 auto;
+        padding: 16px 32px;
+        min-width: 169px;
+        border-radius: 4px;
+}
+
+.btn-container {
+padding-bottom: 185px;
 }
 
 .hero-btn:hover, .hero-btn:focus {
