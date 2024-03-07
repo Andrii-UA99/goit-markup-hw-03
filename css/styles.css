@@ -162,6 +162,8 @@ text-decoration: underline;
 }
 
 .btn-container {
+    display: flex;
+    align-items: center;
 padding-bottom: 185px;
 }
 
@@ -171,11 +173,17 @@ background-color: #404BBF;
 
 
 /* Section-2 */
-/* section */
 
+.features-list {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+}
 
 .features-blok {
-text-align: left;
+    width: calc((100% - 72px) / 4);
+    padding-bottom: 114px;
+    padding-top: 136px;
 }
 
 .features-title {
@@ -185,8 +193,8 @@ text-align: left;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: left;
+    margin-bottom: 8px;
 }
-
 
 .features-text {
     font-weight: 400;
@@ -197,7 +205,7 @@ text-align: left;
     text-align: left;
 }
 
-/* section OUR TEAM */
+/* ============== section 3 OUR TEAM ============== */
 
 .ourteam-section {
     background: #f4f4fd;
