@@ -219,11 +219,33 @@ background-color: #404BBF;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    padding-top: 120px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 0;
+    margin-bottom: 72px;
 }
 
 .ourteam-list {
+display: flex;
+gap: 24px;
+margin: 0;
+padding-bottom: 120px;
+}
+
+.ourteam-item {
 background: #fff;
 text-align: center;
+width: calc((100% - 3 * 24px) / 4);
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+border-radius: 0 0 4px 4px;
+}
+
+.ourteam-img {
+    display: block;
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 32px;
 }
 
 .ourteam-list-title {
@@ -233,6 +255,8 @@ text-align: center;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding: 0 auto;
+    margin-bottom: 8px;
 }
 
 .ourteam-list-text {
@@ -242,6 +266,8 @@ text-align: center;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin: 0;
+    padding-bottom: 32px;
 }
 
 
