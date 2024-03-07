@@ -238,9 +238,6 @@ position: absolute;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    
-    padding-left: auto;
-    padding-right: auto;
     padding-bottom: 0;
     margin-bottom: 72px;
 }
@@ -306,7 +303,6 @@ padding-bottom: 120px;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    padding: 0 auto;
     margin-bottom: 72px;
 }
 
